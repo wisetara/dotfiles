@@ -1,0 +1,19 @@
+[color]
+	ui = true
+[user]
+	name = Tara
+	email = wisetara@users.noreply.github.com
+[push]
+	default = current
+[core]
+	excludesfile = /Users/tarascherner/.gitignore_global
+[alias]
+  chekcout = checkout
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+	insteadOf = https://github.com/
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

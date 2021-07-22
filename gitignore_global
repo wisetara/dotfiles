@@ -1,0 +1,7 @@
+*.gz
+*.rubocop.yml
+db/candidate_search_test_structure.sql
+config/secrets.yml.key
+.prettierignore
+.eslintrc.json.development
+.DS_Store
